@@ -8,6 +8,7 @@
     (title "BirdBox3 Interface Hatlet for Pi Zero W")
     (date "2024-02-02")
     (rev "1.0")
+    (comment 1 "2024 version")
   )
 
   (lib_symbols
@@ -2572,7 +2573,7 @@
     (property "Reference" "J3" (id 0) (at 36.83 166.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "JST" (id 1) (at 36.83 173.99 0)
+    (property "Value" "Term Blk" (id 1) (at 38.1 173.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 35.56 168.91 0)
@@ -2931,8 +2932,8 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/bq2970.pdf" (id 3) (at 245.11 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e86f7337-942d-4749-8f6c-25f675eff1ed))
-    (pin "1" (uuid e86f7337-942d-4749-8f6c-25f675eff1ed))
+    (pin "1" (uuid e86f7337-942d-4749-8f6c-25f675eff1ee))
+    (pin "1" (uuid e86f7337-942d-4749-8f6c-25f675eff1ee))
     (pin "2" (uuid fe742c41-8223-496b-89f6-520fdfa31420))
     (pin "3" (uuid 7b7f1273-99af-408c-8a1f-6a692f5875ad))
     (pin "4" (uuid 8bb21324-f14c-449b-b01f-3e12c082ecbd))
@@ -3291,7 +3292,7 @@
       (reference "J2b") (unit 1) (value "1x2 male") (footprint "")
     )
     (path "/0f728f4f-92f1-468c-8943-d5388d111303"
-      (reference "J3") (unit 1) (value "JST") (footprint "")
+      (reference "J3") (unit 1) (value "Term Blk") (footprint "")
     )
     (path "/1b524548-72e1-44f9-805f-3e0c5799fd28"
       (reference "J4") (unit 1) (value "1x6 male") (footprint "")
