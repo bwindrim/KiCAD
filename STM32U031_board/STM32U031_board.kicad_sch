@@ -1,0 +1,182 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d04db40f-3372-45b5-af91-93a71b91ba8f")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 151.13 106.68)
+		(size 100.33 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "03329655-8e4f-4f24-927f-fc865b1c89b8")
+		(property "Sheetname" "Connectors, LEDs, pushbutton"
+			(at 151.13 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "misc.kicad_sch"
+			(at 151.13 147.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32U031_board"
+				(path "/d04db40f-3372-45b5-af91-93a71b91ba8f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 40.64)
+		(size 101.6 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3617cf80-a832-4243-9e8a-f40db854a05f")
+		(property "Sheetname" "Power supply"
+			(at 151.13 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PSU.kicad_sch"
+			(at 151.13 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32U031_board"
+				(path "/d04db40f-3372-45b5-af91-93a71b91ba8f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 39.37)
+		(size 83.82 46.99)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a0456e2b-5a4a-4f34-8626-b0b0aa386f3c")
+		(property "Sheetname" "MCU"
+			(at 39.37 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 39.37 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32U031_board"
+				(path "/d04db40f-3372-45b5-af91-93a71b91ba8f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 106.68)
+		(size 83.82 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e38a9943-4023-47e1-bb48-8374983e61c7")
+		(property "Sheetname" "Headers"
+			(at 39.37 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "headers.kicad_sch"
+			(at 39.37 147.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32U031_board"
+				(path "/d04db40f-3372-45b5-af91-93a71b91ba8f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
