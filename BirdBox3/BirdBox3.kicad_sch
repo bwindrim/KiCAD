@@ -6,9 +6,9 @@
 
   (title_block
     (title "BirdBox3 Interface Hatlet for Pi Zero W")
-    (date "2024-02-02")
-    (rev "1.0")
-    (comment 1 "2025 version")
+    (date "2026-09-29")
+    (rev "1.1")
+    (comment 1 "2026 version")
   )
 
   (lib_symbols
@@ -2495,8 +2495,8 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/bq2970.pdf" (id 3) (at 245.11 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e86f7337-942d-4749-8f6c-25f675eff1f1))
-    (pin "1" (uuid e86f7337-942d-4749-8f6c-25f675eff1f1))
+    (pin "1" (uuid e86f7337-942d-4749-8f6c-25f675eff1f3))
+    (pin "1" (uuid e86f7337-942d-4749-8f6c-25f675eff1f3))
     (pin "2" (uuid fe742c41-8223-496b-89f6-520fdfa31420))
     (pin "3" (uuid 7b7f1273-99af-408c-8a1f-6a692f5875ad))
     (pin "4" (uuid 8bb21324-f14c-449b-b01f-3e12c082ecbd))
