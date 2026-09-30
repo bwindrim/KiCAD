@@ -5,6 +5,162 @@
 	(uuid "11994c01-c8f5-48c1-9f62-73eeda58f7e9")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_ST_STM32U0:STM32U031K8Ux"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1136,10 +1292,44 @@
 		)
 	)
 	(junction
+		(at 85.09 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01bb5e47-2dbd-4298-911f-6398890bace2")
+	)
+	(junction
+		(at 85.09 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e6fd71b-6360-4e69-8453-32a7c2275261")
+	)
+	(junction
 		(at 85.09 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91544029-f7d2-4ded-bf87-2004d9c7c137")
+	)
+	(junction
+		(at 40.64 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d65c3713-b20f-43f6-8ee3-f0c8a0d6b409")
+	)
+	(junction
+		(at 40.64 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f15a8f53-f33f-475b-92e9-c4d132c3bd8e")
+	)
+	(wire
+		(pts
+			(xy 35.56 63.5) (xy 40.64 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00fd1eab-9a48-46f6-9150-8a99ddb604bc")
 	)
 	(wire
 		(pts
@@ -1153,6 +1343,26 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 63.5) (xy 45.72 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "400b35f9-0de6-4d01-b574-09c2c6a636b7")
+	)
+	(wire
+		(pts
+			(xy 85.09 99.06) (xy 85.09 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53fb8704-9546-4af6-bab0-902728d347b7")
+	)
+	(wire
+		(pts
 			(xy 82.55 44.45) (xy 85.09 44.45)
 		)
 		(stroke
@@ -1163,7 +1373,17 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 97.79) (xy 85.09 101.6)
+			(xy 40.64 99.06) (xy 85.09 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "948e9421-ddf7-4fea-9df2-f0fd55de00a7")
+	)
+	(wire
+		(pts
+			(xy 85.09 97.79) (xy 85.09 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1173,13 +1393,73 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 29.21) (xy 85.09 44.45)
+			(xy 85.09 29.21) (xy 85.09 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9f0d8e38-3bab-4fb2-9e7b-acae1fe9f0d7")
+	)
+	(wire
+		(pts
+			(xy 40.64 58.42) (xy 45.72 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8ff87d3-f2bb-4c5d-8ea9-01ffd738752e")
+	)
+	(wire
+		(pts
+			(xy 85.09 34.29) (xy 40.64 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb580c8b-d6df-4942-bf54-74eaf1a0b9fc")
+	)
+	(wire
+		(pts
+			(xy 35.56 58.42) (xy 40.64 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce553fcd-0b44-4032-af28-3ce678c0f961")
+	)
+	(wire
+		(pts
+			(xy 85.09 34.29) (xy 85.09 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce6d2aed-dd56-42a1-89f5-81bbda7cc999")
+	)
+	(wire
+		(pts
+			(xy 40.64 63.5) (xy 40.64 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4ee598c-a083-4aee-852c-61368686f90a")
+	)
+	(wire
+		(pts
+			(xy 40.64 34.29) (xy 40.64 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff0a3041-79b3-4a4b-b535-b51f2ee0771c")
 	)
 	(hierarchical_label "PA4"
 		(shape bidirectional)
@@ -1477,6 +1757,170 @@
 			(justify left)
 		)
 		(uuid "f868e7df-35ab-4bd8-bf7f-d8a6d0607c61")
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 45.72 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01026411-261e-40ae-8586-efb1d726c855")
+		(property "Reference" "C3"
+			(at 48.26 59.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 48.26 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 45.72 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 45.72 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0e9f2697-cec7-48e0-8033-abce37d7acf4")
+		)
+		(pin "1"
+			(uuid "a826f78c-2bca-4db9-9f26-cbaea4fef7db")
+		)
+		(instances
+			(project "STM32U031_board"
+				(path "/d04db40f-3372-45b5-af91-93a71b91ba8f/a0456e2b-5a4a-4f34-8626-b0b0aa386f3c"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 35.56 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19f3c717-be2f-4b0e-84da-297e622b1669")
+		(property "Reference" "C4"
+			(at 38.1 59.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 38.1 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 35.56 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 35.56 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ddb892d6-999f-4a03-89ed-fd4f7c518f49")
+		)
+		(pin "1"
+			(uuid "de556468-f816-4fad-a159-451cfb80d7a2")
+		)
+		(instances
+			(project "STM32U031_board"
+				(path "/d04db40f-3372-45b5-af91-93a71b91ba8f/a0456e2b-5a4a-4f34-8626-b0b0aa386f3c"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "MCU_ST_STM32U0:STM32U031K8Ux")
